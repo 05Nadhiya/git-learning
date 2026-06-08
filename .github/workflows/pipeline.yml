@@ -2,10 +2,13 @@ name: Test Pipeline
 
 on:
   push:
-    - main
+    branches:
+      - main
 
 jobs:
   test:
     steps:
       name: Test 
       echo: <"Hello world">
+
+
