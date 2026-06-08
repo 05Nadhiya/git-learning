@@ -1,14 +1,13 @@
-name: Test Pipeline
+name: Test
 
 on:
   push:
     branches:
+      - dev
       - main
 
 jobs:
-  test:
+  Test:
     steps:
-      name: Test 
-      echo: <"Hello world">
-
-
+      - name: Welcome Message
+        run: echo "Building Application"
