@@ -2,8 +2,7 @@ name: Test Pipeline
 
 on:
   push:
-    -dev
-    -main
+    - main
 
 jobs:
   test:
