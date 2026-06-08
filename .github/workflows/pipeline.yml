@@ -9,4 +9,4 @@ jobs:
   test:
     steps:
       name: Test 
-      echo <"Hello world">
+      echo: <"Hello world">
