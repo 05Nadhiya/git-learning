@@ -11,3 +11,8 @@ jobs:
     steps:
       - name: Build Step
         run: echo "Building Application"
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Test run"
