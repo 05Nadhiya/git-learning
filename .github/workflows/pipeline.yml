@@ -1,13 +1,13 @@
-name: Test
+name: Sample
 
 on:
   push:
     branches:
-      - dev
       - main
 
 jobs:
-  Test:
+  sample:
+    runs-on: ubuntu-latest
     steps:
-      - name: Welcome Message
+      - name: Build Step
         run: echo "Building Application"
